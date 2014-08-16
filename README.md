@@ -6,7 +6,9 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 
 # Overview of Refactoring Patterns
 
-## General Patterns
+## Common Patterns
+
+### Composing Methods
 - [Extract function/method](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
 - Replace temp with query
 - Introduce explaining variable
