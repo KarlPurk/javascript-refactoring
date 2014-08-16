@@ -15,17 +15,17 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 
 ## JavaScript Patterns
 
-### ECMA 3
+### ECMAScript 3
  - Replace switch with object literal
 
-### ECMA 5
+### ECMAScript 5
 - Replace for loop with forEach
 - Replace aggregate property operations with reduce
 - Replace direct array access element updates with map
 - Replace context variable with bind/call/apply
 - Extract module
 
-### ECMA 6
+### ECMAScript 6
 - Replace nested async callbacks with promises
 
 ### jQuery
