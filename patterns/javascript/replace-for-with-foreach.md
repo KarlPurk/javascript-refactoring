@@ -19,7 +19,7 @@ Use the ECMAScript 5 `forEach` method instead.
 });
 ```
 
-# References
+# More Information
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
