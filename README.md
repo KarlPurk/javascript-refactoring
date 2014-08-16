@@ -1,13 +1,13 @@
 JavaScript Refactoring Patterns
 =======================
-A collection of JavaScript refactoring patterns for improving the design of existing JavaScript code.
+A collection of refactoring patterns for improving the design of existing JavaScript code.
 
-This work is greatly motivated by, and many patterns are adapted from, Martin Fowlers excellent book Refactoring - Improving the design of existing code.
+This work is greatly motivated by, and many patterns are adapted from, Martin Fowler's excellent book Refactoring - Improving the design of existing code.
 
 # Overview of Refactoring Patterns
 
 ## General Patterns
-- Extract function/method
+- [Extract function/method] (https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
 - Replace temp with query
 - Introduce explaining variable
 - Split temporary variable
