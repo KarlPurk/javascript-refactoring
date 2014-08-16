@@ -7,7 +7,7 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 # Overview of Refactoring Patterns
 
 ## General Patterns
-- [Extract function/method] (https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
+- [Extract function/method](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
 - Replace temp with query
 - Introduce explaining variable
 - Split temporary variable
@@ -19,7 +19,7 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
  - Replace switch with object literal
 
 ### ECMAScript 5
-- Replace for loop with forEach
+- [Replace for loop with forEach](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-for-with-foreach.md)
 - Replace aggregate property operations with reduce
 - Replace direct array access element updates with map
 - Replace context variable with bind/call/apply
