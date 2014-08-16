@@ -17,7 +17,7 @@ These refactorings are ported to JavaScript from Martin Fowler's book Refactorin
 - Remove assignments to parameters
 
 ## JavaScript Patterns
-These refactorings are JavaScript specific and should help to improve the design of your code.  The refactorings are grouped by the ECMAScript version that implemented the functionaity that they depend on.  
+These refactorings are JavaScript specific and should help to improve the design of your code.  The refactorings are grouped by the ECMAScript version that implements the functionaity that they depend on.  
 
 ### ECMAScript 3
  - [Replace switch with object literal](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-switch-with-object-literal.md)
