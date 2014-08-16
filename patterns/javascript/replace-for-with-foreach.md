@@ -5,8 +5,8 @@ You're using the `for` statement to iterate a collection.
 
 ```javascript
 var i, item, items = [1, 2, 3];
-for (var i = 0; i < items.length; i++) {
-    var item = items[i];
+for (i = 0; i < items.length; i++) {
+    item = items[i];
     console.log(item);
 }
 ```
