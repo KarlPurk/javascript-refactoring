@@ -16,7 +16,7 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 ## JavaScript Patterns
 
 ### ECMAScript 3
- - Replace switch with object literal
+ - [Replace switch with object literal](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-switch-with-object-literal.md)
 
 ### ECMAScript 5
 - [Replace for loop with forEach](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-for-with-foreach.md)
