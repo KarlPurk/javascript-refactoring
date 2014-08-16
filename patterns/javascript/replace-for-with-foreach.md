@@ -1,0 +1,2 @@
+Replace for with forEach
+=========================
