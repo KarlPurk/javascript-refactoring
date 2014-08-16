@@ -6,7 +6,8 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 
 # Overview of Refactoring Patterns
 
-## Common Patterns
+## General Patterns
+These refactorings are ported to JavaScript from Martin Fowler's book Refactoring - Improving the design of existing code.  Although they are not JavaScript specific they are still great refactorings which can help to improve the design of JavaScript code.
 
 ### Composing Methods
 - [Extract function/method](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
@@ -16,6 +17,7 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
 - Remove assignments to parameters
 
 ## JavaScript Patterns
+These refactorings are JavaScript specific and should help to improve the design of your code.  The refactorings are grouped by the ECMAScript version that implemented the functionaity that they depend on.  
 
 ### ECMAScript 3
  - [Replace switch with object literal](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-switch-with-object-literal.md)
