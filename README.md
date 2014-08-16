@@ -19,7 +19,7 @@ This work is greatly motivated by, and many patterns are adapted from, Martin Fo
  - [Replace switch with object literal](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-switch-with-object-literal.md)
 
 ### ECMAScript 5
-- [Replace for loop with forEach](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-for-with-foreach.md)
+- [Replace for with forEach](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-for-with-foreach.md)
 - [Replace aggregate property operations with reduce](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-aggregate-property-operations-with-reduce.md)
 - Replace direct array access element updates with map
 - Replace context variable with bind/call/apply
