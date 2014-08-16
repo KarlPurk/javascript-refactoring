@@ -25,7 +25,7 @@ These refactorings are JavaScript specific and should help to improve the design
 ### ECMAScript 5
 - [Replace for with forEach](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-for-with-foreach.md)
 - [Replace aggregate property operations with reduce](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-aggregate-property-operations-with-reduce.md)
-- Replace direct array access element updates with map
+- [Replace direct array access element updates with map](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-direct-array-access-element-updates-with-map.md)
 - Replace context variable with bind/call/apply
 - Extract module
 
