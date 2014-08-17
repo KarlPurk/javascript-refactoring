@@ -3,32 +3,36 @@ Replace switch with object literal
 You’re using a switch statement to conditionally execute a fragment of code.
 
 ```javascript
-var instance, something = 'dog';
-switch (something) {
-    case 'dog':
-        instance = new Dog();
-        break;
-    case 'cat':
-        instance = new Cat();
-        break;
-    default:
-        instance = new Person();
-        break;
+var factory = function(key) {
+    var instance;
+    switch (key) {
+        case 'dog':
+            instance = new Dog();
+            break;
+        case 'cat':
+            instance = new Cat();
+            break;
+        default:
+            instance = new Person();
+            break;
+    }
+    return instance;
 }
-console.log(instance);
+console.log(factory('dog'));
 ```
 
 Replace the switch statement with an object literal.
 
 ```javascript
-var something = 'dog', 
-    factory = {
+var factory = function(key) {
+    var map = {
         dog: Dog,
         cat: Cat,
         person: Person
-    },
-    instance = new factory[something || 'person']();
-console.log(instance);
+    };
+    return new map[map[key] ? key : 'person']();
+};
+console.log(factory('dog'));
 ```
 
 # More Information
