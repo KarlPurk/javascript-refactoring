@@ -30,7 +30,7 @@ var factory = function(key) {
         cat: Cat,
         person: Person
     };
-    return new map[map[key] ? key : 'person']();
+    return new map[map.hasOwnProperty(key) ? key : 'person']();
 };
 console.log(factory('dog'));
 ```
@@ -39,3 +39,4 @@ console.log(factory('dog'));
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Object_literals
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
