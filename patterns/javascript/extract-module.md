@@ -5,7 +5,7 @@ You have a collection of related functions that can be utilised through a single
 ```javascript
 var getPostsFromDataSource = function() {
     // Fetch posts from data source
-}
+};
 var lostPosts = function(posts) {
     // Log each post to console
 };
@@ -17,7 +17,7 @@ var getPosts = function() {
     posts = mapPosts(posts);
     logPosts(posts);
     return posts;
-}
+};
 var posts = getPosts();
 ```
 
@@ -27,7 +27,7 @@ Encapsulate the functions in a new function and return a fine-grained interface 
 var postsModule = function() {
   var getPostsFromDataSource = function() {
       // Fetch posts from data source
-  }
+  };
   var lostPosts = function(posts) {
       // Log each post to console
   };
@@ -39,7 +39,7 @@ var postsModule = function() {
       posts = mapPosts(posts);
       logPosts(posts);
       return posts;
-  }
+  };
   return {
   	getPosts: getPosts
   };
