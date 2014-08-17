@@ -1,6 +1,6 @@
 Extract module
 ===============
-You have a collection of related functions that can be utilised through a single interface.
+You have a collection of related functions that can be utilised through a simple interface.
 
 ```javascript
 var getPostsFromDataSource = function() {
