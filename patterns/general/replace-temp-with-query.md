@@ -10,7 +10,7 @@ updateTotalPrice(price);
 Replace the temporary variable with a query.
 
 ```javascript
-var totalPrice = function(items, shipping) {
+var getTotalPrice = function(items, shipping) {
     return items.getPrice() + shipping.getTax();
 }
 updateTotalPrice(getTotalPrice(items, shipping));
