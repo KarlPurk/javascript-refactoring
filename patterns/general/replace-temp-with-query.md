@@ -17,5 +17,5 @@ updateTotalPrice(getTotalPrice(items, shipping));
 ```
 
 # More Information
-- Martin Fowlwer, Refactoring - Improving the design of existing code (Addison-Wesley, 2007), p.120.
+- Martin Fowler, Refactoring - Improving the design of existing code (Addison-Wesley, 2007), p.120.
 - http://refactoring.com/catalog/replaceTempWithQuery.html

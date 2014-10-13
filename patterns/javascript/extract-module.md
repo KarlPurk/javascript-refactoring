@@ -6,7 +6,7 @@ You have a collection of related functions that can be utilised through a simple
 var getPostsFromDataSource = function() {
     // Fetch posts from data source
 };
-var lostPosts = function(posts) {
+var logPosts = function(posts) {
     // Log each post to console
 };
 var mapPosts = function(posts) {
@@ -28,7 +28,7 @@ var postsModule = function() {
   var getPostsFromDataSource = function() {
       // Fetch posts from data source
   };
-  var lostPosts = function(posts) {
+  var logPosts = function(posts) {
       // Log each post to console
   };
   var mapPosts = function(posts) {
@@ -43,7 +43,7 @@ var postsModule = function() {
   return {
   	getPosts: getPosts
   };
-};
+}();
 var posts = postsModule.getPosts();
 ```
 

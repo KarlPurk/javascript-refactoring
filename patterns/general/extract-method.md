@@ -25,5 +25,5 @@ logPosts(posts);
 
 # More Information
 
-- Martin Fowlwer, Refactoring - Improving the design of existing code (Addison-Wesley, 2007), p.110.
+- Martin Fowler, Refactoring - Improving the design of existing code (Addison-Wesley, 2007), p.110.
 - http://refactoring.com/catalog/extractMethod.html
