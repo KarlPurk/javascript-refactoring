@@ -33,4 +33,4 @@ These refactorings are JavaScript specific and should help to improve the design
 - Replace nested async callbacks with promises
 
 ### jQuery
-- Replace jQuery selector with querySelector/querySelectorAll
+- [Replace jQuery selector with querySelector/querySelectorAll](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-jquery-selector-with-query-selector.md)
