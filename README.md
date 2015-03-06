@@ -31,6 +31,7 @@ These refactorings are JavaScript specific and should help to improve the design
 
 ### ECMAScript 6
 - Replace nested async callbacks with promises
+- Declare block specific variables with let
 
 ### jQuery
 - [Replace jQuery selector with querySelector/querySelectorAll](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-jquery-selector-with-query-selector.md)
