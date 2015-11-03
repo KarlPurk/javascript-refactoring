@@ -12,7 +12,7 @@ These refactorings are ported to JavaScript from Martin Fowler's book Refactorin
 ### Composing Methods
 - [Extract function/method](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/extract-method.md)
 - [Replace temp with query](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/replace-temp-with-query.md)
-- Introduce explaining variable
+- [Introduce explaining variable](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/general/introduce-explaining-variable.md)
 - Split temporary variable
 - Remove assignments to parameters
 
