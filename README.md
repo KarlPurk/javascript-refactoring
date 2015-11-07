@@ -30,8 +30,8 @@ These refactorings are JavaScript specific and should help to improve the design
 - [Replace context variable with bind/call/apply](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-context-variable-with-bind-call-apply.md)
 
 ### ECMAScript 6
+- [Declare block scope variables with let](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/declare-block-scope-variables-with-let.md)
 - Replace nested async callbacks with promises
-- Declare block specific variables with let
 
 ### jQuery
 - [Replace jQuery selector with querySelector/querySelectorAll](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-jquery-selector-with-query-selector.md)
