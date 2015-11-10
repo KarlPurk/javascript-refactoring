@@ -27,3 +27,7 @@ function getPrice(price, shippingFee = 9.99) {
     return price + shippingFee;
 }
 ```
+
+# More Information
+
+- [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/default_parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/default_parameters)
