@@ -31,6 +31,7 @@ These refactorings are JavaScript specific and should help to improve the design
 
 ### ECMAScript 6
 - [Declare block scope variables with let](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/declare-block-scope-variables-with-let.md)
+- [Replace default param logic with ES6 default params](https://github.com/KarlPurk/javascript-refactoring/blob/master/patterns/javascript/replace-default-param-logic-with-es6-default-params.md)
 - Replace nested async callbacks with promises
 
 ### jQuery
