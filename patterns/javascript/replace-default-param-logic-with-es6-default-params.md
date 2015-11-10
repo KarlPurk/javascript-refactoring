@@ -1,4 +1,4 @@
-# Replace default value logic with ES6 default syntax
+# Replace default parameter logic with ES6 default parameters
 
 Your using the `or` operator to provide a default value.
 
